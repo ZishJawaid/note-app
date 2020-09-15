@@ -4,4 +4,7 @@ class Note {
       this.text = text
     }
 
+    readNote(){
+      return this.text;
+    }
 }
