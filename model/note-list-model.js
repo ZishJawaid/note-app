@@ -1,21 +1,10 @@
-// class NoteList {
+class NoteList {
 
-//     constructor() {
-//         this.noteList = []
-//     };
+  constructor {
+    this.notes = ['first note', 'second note'];
+  }
 
-//     addNoteToList() {
-//         this.noteList.push(this.note)
-//     };
-
-//     allNotes() {
-//         this.noteList.forEach(function(notes) {
-//             console.log(notes)
-//         });
-//     };
-
-//     createNote(text) {
-//         return this.noteList.push(new Note(text).text)
-//     };
-  
-// }
+  getNotes() {
+    return this.notes
+  }
+}

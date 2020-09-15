@@ -1,9 +1,6 @@
-// function testingNewNotesAddedToList() {
-//     var noteList = new NoteList();
-//     noteList.createNote("test text")
-//     assert.toEqual(noteList.noteList[0] === "test text")
-// }
-// testingNewNotesAddedToList()
+function testingReturnOfNotesInNoteList() {
+  var noteList = new NoteList();
+  assert.toEqual(noteList.getNotes().join() === ['first note', 'second note'].join())
+}
 
-
-
+testingReturnOfNotesInNoteList();

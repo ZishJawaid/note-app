@@ -3,7 +3,3 @@ function testingNoteCreation() {
     assert.toEqual(note.readNote() === "test text")
 }
 testingNoteCreation()
-
-
-
-
