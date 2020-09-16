@@ -1,7 +1,7 @@
 class NoteList {
 
   constructor() {
-    this.notes = ['first note', 'second note'];
+    this.notes = [];
   }
 
   getNotes() {
@@ -9,6 +9,6 @@ class NoteList {
   }
 
   addNote(note) {
-    this.notes.push(new Note(note));
+    this.notes.push(new Note(note).readNote());
   }
 }
