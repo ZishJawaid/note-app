@@ -12,3 +12,4 @@ class NoteList {
     this.notes.push(new Note(note).readNote());
   }
 }
+
